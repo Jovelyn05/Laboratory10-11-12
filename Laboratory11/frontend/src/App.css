@@ -109,7 +109,7 @@
 
 .student-item {
   transition: transform 0.5s, box-shadow 1s ease;
-  color: rgb(255, 216, 180);
+  color: rgb(201, 167, 136);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   background-color: #282c34;
   margin-bottom: 10px;
