@@ -1,5 +1,7 @@
 const { v4: uuidv4 } = require("uuid");
 let students = [];
+
+
 const getStudents = (req, res) => res.json(students);
 
 
@@ -9,7 +11,6 @@ const addStudent = (req, res) => {
     students.push(newStudent);
     res.status(201).json(newStudent);
 };
-
 
 const updateStudent = (req, res) => {
     const { id } = req.params;
