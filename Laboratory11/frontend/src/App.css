@@ -22,11 +22,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(110, 110, 110);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ff0000;
 }
 
 @keyframes App-logo-spin {
@@ -49,7 +49,7 @@
 
 .overlay {
   text-align: center;
-  background: rgb(201, 153, 98);
+  background: rgb(168, 132, 90);
   opacity: 0.8; /* Semi-transparent background */
   border-radius: 15px; /* Rounded corners */
   padding: 20px; /* Inner spacing */
@@ -61,7 +61,7 @@
 }
 
 .overlay:hover {
-  box-shadow: 0 4px 6px rgba(170, 129, 95, 0.1), 10px 10px 10px black;
+  box-shadow: 0 4px 6px rgba(179, 80, 0, 0.1), 10px 10px 10px black;
   transform: scale(1.05);
 }
 
@@ -88,7 +88,7 @@
 
 .snake-rect {
   fill: none;
-  stroke: rgb(255, 255, 255);
+  stroke: rgb(0, 0, 0);
   stroke-width: 1;
   stroke-dasharray: 50;
   stroke-dashoffset: 50;
@@ -109,7 +109,7 @@
 
 .student-item {
   transition: transform 0.5s, box-shadow 1s ease;
-  color: white;
+  color: rgb(255, 216, 180);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   background-color: #282c34;
   margin-bottom: 10px;
